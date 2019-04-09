@@ -7,9 +7,6 @@ fetch(citiesData)
   .then(data => citiesArray.push(...data))
   .catch(error => console.error(error))
 
-let findMatches = (wordToMatch, citiesArray) => {
-  return citiesArray.filter(place => {
-    const regex = new RegExp(wordToMatch, 'gi');
-    return place.city.match(regex) || place.state.match(regex)
-  })
-}
+citiesArray.filter(city => {
+  
+})

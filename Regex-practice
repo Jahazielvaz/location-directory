@@ -1,0 +1,19 @@
+METHODS:
+Search(): Searches for the specified string pattern, and returns the position of the first letter it finds within it.
+  Example:
+    let myStr = "I love dragons";
+    let myResult = myStr.search(/dragons/i)
+    myResult will equal 7 since that's the position where the d is.
+
+Replace(): Replaces the chosen pattern with whatever you choose
+  Example:
+    let myStr = 'I love dragons';
+    let myResult = myStr.replace(/dragons/i, "puppies")
+    myResult will equal "I love puppies" since it replaced dragons with puppies.
+
+Test(): The whole purpose of this method is to let you know if it contains the chosen pattern. It's a boolean that will return true if the string you check contains the chosen pattern. Otherwise it'll return false.
+  Example:
+    let myStr = 'I love dragons';
+    let myResult = /dra/.test(myStr);
+    myResult will equal true, because dra does exist in myStr string.
+    NOTE: It's very important that you remember that in this method, you use the .test() on the pattern you want to test for, and not on the target string 
