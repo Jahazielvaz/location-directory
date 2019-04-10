@@ -1,3 +1,5 @@
+CONSTRUCTOR: The RegExp() constructor create a regular expression object for matching text with a pattern 
+
 METHODS:
 Search(): Searches for the specified string pattern, and returns the position of the first letter it finds within it.
   Example:
