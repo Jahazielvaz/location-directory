@@ -11,6 +11,35 @@ Default Binding: this is bound to the window object
 
 
 Implicit Binding: this is bound to the object that contains the piece of data being invoked by the this keyword
+-First of all, the only example I have of getting implicit binding to work right now, is using it between an object and a function, so that's the example I'll give you right now. Later on we'll see if we can expand on it.
+ This one has been particularly confusing so make sure you pay close attention. You first need to add the function as one of the properties of the object (Make sure you do not invoke the function within the object when using it as one of the properties of the object.)
+-Then you can refer to any of the other properties that belong to the object within the function, using the this keyword. Then it'll know that you're referring to the property that belongs to the object.
+-Finally the result will live as the value of the property that contains the function (Make sure that when you access this property, that you actually invoke the function with the parenthesis)
+-This will not work if the function is using new syntax
+  EXAMPLE:
+    let myObj = {
+      message: "Hello World",
+      myFunc: myFunc
+    }
+
+    function myFunc(){
+      return this.message;
+    }
+
+    myObj.myFunc() // Will return "Hello World"
+
+Explicit Binding: In this case you actually force a function call to use a particular object for this binding, without putting a property function reference on the object. Or in other words, we explicitly tell the function call what object it should use to bind the this keyword to. We do this by using functions such as call, apply, and bind.
+-It's going to return undefined if the function invoking the this keyword is built with es6 syntax, however, the object being invoked by the this keyword, can be built using es6 syntax
+  EXAMPLE(Using the call method):
+    function myFunc(){
+      return this.message
+    }
+
+    let myObj = {
+      message: "Hello World"
+    }
+
+    myFunc.call(myObj) //Will return Hello World
 
 
 
