@@ -40,7 +40,27 @@ Explicit Binding: In this case you actually force a function call to use a parti
     }
 
     myFunc.call(myObj) //Will return Hello World
+    NOTE: If you had extra arguments on the function, they would be passed normally
+    EXAMPLE: myFunc.call(myObj, arg1, arg2)
 
+    NOTE: If you were to use .apply, instead of .call, it seems that it would do the same thing, except you would pass the arguments as an array.
+    EXAMPLE: myFunc.apply(myObj, [arg1, arg2])
+
+-The bind function: The bind function creates a new function which binds the old function (The one that's invoking the this keyword), to the desired object. Basically it takes in both the function and the object, and returns the results of the original function, except now because of it the this keyword in the old function now works since they're both bound in the new function.
+  EXAMPLE:
+    function myFunc(){
+      return this.message
+    }
+
+    let myObj = {
+      message: 'Dragons Exist'
+    }
+
+    let hiddenMessage = myFunc.bind(myObj);
+
+    hiddenMessage() // Would return "Dragons Exist"
+
+    NOTE: You can use bind when you want to return a function that you want to execute later, whereas call and apply you can use when you want to execute the function immediately. 
 
 
 
