@@ -16,4 +16,49 @@ Test(): The whole purpose of this method is to let you know if it contains the c
     let myStr = 'I love dragons';
     let myResult = /dra/.test(myStr);
     myResult will equal true, because dra does exist in myStr string.
-    NOTE: It's very important that you remember that in this method, you use the .test() on the pattern you want to test for, and not on the target string 
+    NOTE: It's very important that you remember that in this method, you use the .test() on the pattern you want to test for, and not on the target string.
+
+Exec(): Returns an object containing not only the pattern you chose, but the index in which the pattern is, as well as the full string where it got the information from. There is also a groups section that I don't fully understand yet.
+  Example:
+    let myStr = 'I love dragons';
+    let myResult = /dra/.exec(myStr);
+    myResult will return ["dra", index: 7, input: "I love dragons", groups: undefined]
+
+REGULAR EXPRESSION PATTERNS
+BRACKETS []: Used to find a range of characters.
+[abc]: Find any of the characters between the brackets.
+[0-9]: Find any of the digits between the brackets.
+(X|Y): Find any of the alternatives separated by |
+
+METACHARACTERS \: Characters with special meaning.
+\d : Find a digit
+\s : Find a whitespace character
+\b : Find a match at the begining or the end of a word
+\uxxxx : Find the unicode specified by the hexadecimal number xxxx.
+
+QUANTIFIERS: define quantities.
+n+ Matches any string that contains at least one n
+n* Matches any string zero or more occurrences of n
+n? Matches any string that contains zero or one occurrences of n.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
