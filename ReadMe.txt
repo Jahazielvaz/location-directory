@@ -1,8 +1,8 @@
 DESCRIPTION: This app gives you a list of matching cities, and states based on your input.
 
 REQUIREMENTS
--Must contain various cities and states to choose from.
--Must contain an input field, where the user can type
+/ Must contain various cities and states to choose from.
+/ Must contain an input field, where the user can type
 -Must contain a matching feature that matches all the letters and patterns being typed in to all the letters and patterns inside our cities and state
 -Must contain some kind of color change for when letters are being matched, like a highlighting feature
 -Must contain a dropdown that shows the results
@@ -22,3 +22,9 @@ THINGS I'VE LEARNED
 
 
 THINGS TO PRACTICE/LOOK INTO
+- RegExp() constructor - I need to know how to use it, and the logic behind it (Break down the findMatches function, and be able to recreate it at will)
+- Regex methods, and patterns.
+- Fetch with public apis (Find a way to connect to some higher level apis like twitter, maybe youtube, or fb, etc) Use fetch.
+- Ajax calls. Get this handled once and for all.
+- forEach() : Find out when to use it and when not to use it, and what's the difference between forEach and the map feature, and when to use each of them.
+- Array methods : Find a way to combine and use them with regex to create powerful data manipulation. 

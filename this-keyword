@@ -1,0 +1,40 @@
+THIS IS MY PRACTICE ON HOW THE THIS KEYWORD WORKS
+Training Url: https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c
+
+FUN FACTS
+Default Binding: this is bound to the window object
+-The this keyword so far refers to the window items. Or in other words. Where you invoke it doesn't affect it, but rather it searches for the name of the variable of piece of data you have selected, in the window item.
+-The this keyword doesn't work when invoking variables that use let, or const as their keyword. I'm not 100% sure but I don't think the this keyword works to invoke functions.
+-The this keyword can be invoked anywhere so far, as long as the target of the invocation starts with the var keyword even on es6 syntax functions or let or const variables.
+  EXAMPLE:
+    var message = "This is a message";
+
+
+Implicit Binding: this is bound to the object that contains the piece of data being invoked by the this keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
