@@ -27,4 +27,5 @@ THINGS TO PRACTICE/LOOK INTO
 - Fetch with public apis (Find a way to connect to some higher level apis like twitter, maybe youtube, or fb, etc) Use fetch.
 - Ajax calls. Get this handled once and for all.
 - forEach() : Find out when to use it and when not to use it, and what's the difference between forEach and the map feature, and when to use each of them.
-- Array methods : Find a way to combine and use them with regex to create powerful data manipulation. 
+- Array methods : Find a way to combine and use them with regex to create powerful data manipulation.
+- This keyword, specially in the way that this guy knows how to use it. Understand exactly when it targets what, and do a bunch of exercises until you fully know how to use it.
