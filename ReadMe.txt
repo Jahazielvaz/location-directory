@@ -33,3 +33,4 @@ THINGS TO PRACTICE/LOOK INTO
 - Find the difference between forEach() and map(). When it's better to use what.
 - .replace() : I'm not fully sure how this works, but all I know is that you can replace things with other things. I don't know the rules or anything. This is another concept that I want to learn really well, and to find good uses for.
 - Finally, consolidate all the things you need to study from the last app with the things in this one. Go on a discovery phase to find out what kind of things you can build with each of them, and write them down for each of them. Then figure out what kind of app you can build that requires you to use each of the things, and build it.
+- I also want to learn geolocation in the near future

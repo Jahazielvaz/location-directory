@@ -40,6 +40,10 @@ input{
   box-shadow: 1px 1px 4px 2px rgba(50, 50, 50, .2);
 }
 
+.hl{
+  background: yellow;
+}
+
 .slant-right{
   background: #ccc;
   height: 40px;
