@@ -29,3 +29,7 @@ THINGS TO PRACTICE/LOOK INTO
 - forEach() : Find out when to use it and when not to use it, and what's the difference between forEach and the map feature, and when to use each of them.
 - Array methods : Find a way to combine and use them with regex to create powerful data manipulation.
 - This keyword, specially in the way that this guy knows how to use it. Understand exactly when it targets what, and do a bunch of exercises until you fully know how to use it.
+- .join(' ') : I don't fully know what this does or what it's used for.
+- Find the difference between forEach() and map(). When it's better to use what.
+- .replace() : I'm not fully sure how this works, but all I know is that you can replace things with other things. I don't know the rules or anything. This is another concept that I want to learn really well, and to find good uses for.
+- Finally, consolidate all the things you need to study from the last app with the things in this one. Go on a discovery phase to find out what kind of things you can build with each of them, and write them down for each of them. Then figure out what kind of app you can build that requires you to use each of the things, and build it.

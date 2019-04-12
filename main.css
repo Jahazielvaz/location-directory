@@ -34,11 +34,9 @@ input{
 .slant-left{
   background: #ccc;
   height: 40px;
-  transform: skewX(10deg);
   box-sizing: border-box;
   padding: 10px;
   max-width: 70%;
-  margin: auto;
   box-shadow: 1px 1px 4px 2px rgba(50, 50, 50, .2);
 }
 
@@ -51,4 +49,10 @@ input{
   max-width: 70%;
   margin: auto;
   box-shadow: 1px 1px 4px 2px rgba(50, 50, 50, .2);
+}
+
+#results{
+
+  line-height: 40px;
+  display: block;
 }
